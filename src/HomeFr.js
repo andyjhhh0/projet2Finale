@@ -9,7 +9,7 @@ const HomeFr = () => {
         <div className="card">
           <img src={keyboardOneImage} alt="Keyboard One" />
           <div className="card-content">
-            <h2>Keyboard One</h2>
+            <h2>HyperStrike X7</h2>
             <p>Le meilleur du meilleur pour les passionnés, les professionnels et les joueurs.</p>
             <li><Link to="/Shop">Acheter maintenant</Link></li>
           </div>
@@ -17,7 +17,7 @@ const HomeFr = () => {
         <div className="card">
           <img src={keyboardTwoImage} alt="Keyboard Two" />
           <div className="card-content">
-            <h2>Keyboard Two</h2>
+            <h2>ProType Elite</h2>
             <p>Un rapport qualité/prix incroyable.</p>
             <li><Link to="/Shop">Acheter maintenant</Link></li>
           </div>
