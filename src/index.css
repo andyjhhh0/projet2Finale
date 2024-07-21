@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  color: #c5c5c5;
+  
+}
+.home{
+  color: black;
+}
+.navbar {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: rgb(100, 0, 0)
+  
+
+}
+.navbar .links {
+
+  margin-left: auto;
+  padding: 20px;
+}
+.navbar a{
+  
+  margin-left: 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover{
+  color: rgb(150, 150, 150)
+}
+
+.content {
+  min-height: 814px;
+  padding: 0;
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.foot {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(100, 0, 0)
+  
+}
+
+.foot a {
+  color: #c5c5c5; 
+  text-decoration: none;
+  padding: 6px;
+}
+
+.linksfoot {
+  margin-left: auto;
+}
+
+.linksfoot a {
+  margin: 20px; 
+}
+
+.foot a:hover{
+  color: rgb(150, 150, 150)
+}
+
+
+.home-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  width: 100%;
+}
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  flex: 1 1 calc(33.333% - 40px);
+}
+.card img {
+  max-height: 350px;
+}
+
+.card-content{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.shop {
+  display: flex;
+  flex-direction: column;
+}
+.filter h6{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.shop-content {
+  display: flex;
+}
+
+.filter {
+  flex: 1;
+  margin-right: 20px;
+  padding: 100px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.filter h5 {
+  margin-bottom: 1em;
+}
+
+.filter-section {
+  margin-bottom: 1em;
+}
+
+.product-cards {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card1 {
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+  width: 300px; /* Taille fixe en pixels */
+  height: 400px; /* Taille fixe en pixels */
+}
+
+.card1 img {
+  max-height: 220px;
+}
+
+.card1-body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.card1-title {
+  color: rgb(10, 10, 10);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.card1-text {
+  
+  color: rgb(10, 10, 10);
+  font-size: 1rem;
+  padding-bottom: 5px;
+
+}
+.card1 a{
+  text-decoration: none;
+  color: rgb(19, 0, 190);
+  font-size: 1rem;
+
+}
+.card1 li{
+  list-style-type: none;
+
+}
+
+.btn {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: #c82333;
+}
+
+.contact-us h2 {
+  margin-bottom: 1em;
+}
+
+.contact-us .form-control {
+  margin-bottom: 1em;
+}
+.contact-us {
+  padding: 40px;
+  text-align: center;
+}
+
+.latest-news .news-item {
+  margin-bottom: 2em;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.latest-news h2 {
+  margin-bottom: 1em;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+
+.latest-news h3 {
+  margin-top: 0.5em;
+}
+.latest-news .news-image{
+  padding-left: 50px;
+  max-width: 500px;
+  max-height:400px;
+}
+
+.build-your-own-keyboard {
+  padding: 40px;
+  font-size: 30px;
+}
+
+.build-your-own-keyboard h2 {
+  padding-bottom: 20px;
+}
+.build-your-own-keyboard li{
+  list-style-type: none;
+}
+
+
+.switchtypes-image,
+.keyboardsizes-image {
+  height: auto;
+  padding: 20px;
+}
+
+
+.d-flex {
+  display: flex;
+  align-items: flex-start;
+}
+.d-flex > * {
+  padding: 20px;
+}
+.ms-4 {
+  margin-left: 2rem;
+  
+}
+
+
+.log-in{
+  padding: 40px;
+  text-align: center;
+  padding-top: 120px;
+}
+.log-in h2 {
+  margin-bottom: 1em;
+}
+
+.log-in .form-control {
+  margin-bottom: 1em;
+}
